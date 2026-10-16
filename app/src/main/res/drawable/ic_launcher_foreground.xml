@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  自适应图标前景：镜头同心圆 + 录制红点。
+  约束：所有可见元素必须落在安全圆 r=33（以 54,54 为心）内，否则被系统裁掉。
+  外环外缘 54±26.25 → 28.25；红点外缘距心 31.8 ✓
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+
+    <!-- 1) 镜头外环 -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="4.5"
+        android:fillColor="#00000000"
+        android:pathData="M54,30 a24,24 0 1,1 -0.01,0 z" />
+
+    <!-- 2) 镜片（深色纵深） -->
+    <path
+        android:fillColor="#0B1220"
+        android:pathData="M54,37 a17,17 0 1,1 -0.01,0 z" />
+
+    <!-- 3) 光圈（青色） -->
+    <path
+        android:strokeColor="#67E8F9"
+        android:strokeWidth="3"
+        android:fillColor="#00000000"
+        android:pathData="M54,43.5 a10.5,10.5 0 1,1 -0.01,0 z" />
+
+    <!-- 4) 玻璃高光 -->
+    <path
+        android:fillColor="#E6FFFFFF"
+        android:pathData="M47,47 a4.5,4.5 0 1,1 -0.01,0 z" />
+
+    <!-- 5) 录制红点（含白圈，收进安全圆） -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M72,36 m-6.3,0 a6.3,6.3 0 1,0 12.6,0 a6.3,6.3 0 1,0 -12.6,0" />
+    <path
+        android:fillColor="#FF4D4F"
+        android:pathData="M72,36 m-4.4,0 a4.4,4.4 0 1,0 8.8,0 a4.4,4.4 0 1,0 -8.8,0" />
+</vector>

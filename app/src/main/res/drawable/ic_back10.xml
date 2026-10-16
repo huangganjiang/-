@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 后退 10 秒：300° 圆环 + 实心左箭头（UI 详检 ④，统一 2dp 圆头） -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp" android:height="24dp" android:viewportWidth="24" android:viewportHeight="24">
+    <path
+        android:strokeColor="#0F172A"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M12,4.5 A7.5,7.5 0 1,1 5.7,6.6" />
+    <path
+        android:fillColor="#0F172A"
+        android:pathData="M12.4,1.4 L6.4,4.6 L12.4,8.0 Z" />
+</vector>

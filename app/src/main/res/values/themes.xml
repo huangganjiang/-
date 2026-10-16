@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.JishiMonitor" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">#F7F9FC</item>
+        <item name="android:statusBarColor">#F7F9FC</item>
+        <item name="android:navigationBarColor">#F7F9FC</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <!-- 刘海/挖孔屏：允许画面延伸到短边区域（控件自行按 insets 避让） -->
+        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+    </style>
+</resources>
